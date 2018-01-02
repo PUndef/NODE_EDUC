@@ -17,6 +17,5 @@ function run() {
 if(module.parent) {
     exports.run = run;
 } else {
-    console.log('run');
     run();
 }
